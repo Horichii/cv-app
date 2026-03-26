@@ -1,0 +1,67 @@
+.preview-container {
+  display: flex;
+  flex-direction: column; 
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 40px; /* Give the "paper" some padding */
+  box-sizing: border-box;
+}
+
+.preview-section {
+  width: 100%;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee; 
+  position: relative; 
+}
+
+.preview-section h3 {
+  color: #2c3e50;
+  border-left: 4px solid #2c3e50; /* Add a little professional accent */
+  padding-left: 10px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+.preview-row {
+  display: flex;
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+.preview-label {
+  font-weight: bold;
+  width: 180px; 
+  color: #7f8c8d;
+  flex-shrink: 0; 
+}
+
+.preview-value {
+  color: #34495e;
+  flex: 1;
+}
+
+.general-edit-btn, 
+.educational-edit-btn, 
+.work-edit-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 4px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.rem;
+    transition: background 0.2s;
+}
+
+.general-edit-btn:hover, 
+.educational-edit-btn:hover, 
+.work-edit-btn:hover {
+    background-color: #e2e6ea;
+}

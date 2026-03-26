@@ -1,0 +1,69 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+.sidebar {
+  flex: 0.9; 
+  background-color: #071e35;
+  color: white;
+  padding: 2rem;
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
+}
+
+.main-preview {
+  flex: 2.5; 
+  display: flex;
+  justify-content: center;
+  /* padding: 2rem; */
+  /* background-color: #f0f0f0; */
+}
+
+.input-group {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  flex: 0 0 120px; 
+  font-weight: bold;
+  margin-right: 15px;
+  font-size: 0.9rem;
+  padding-top: 6px;
+}
+
+.input-group input {
+  flex: 1; 
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-btn, .back-btn {
+  width: 100%;
+  font-size: 0.8rem;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
